@@ -1,26 +1,40 @@
-*{
-  font-size: 14px;
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
-ul{
+/* 전체 설정 */
+* {
   margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Pretendard-Regular';
+  box-sizing: border-box;
 }
-
 
 a {
   text-decoration: none;
   color: #121212;
-  display: block;
 }
 
+/* ul */
 .vdt-container {
   width: 250px;
+  height: 86px;
   text-align: center;
 }
 
 .vdt__item {
-  border-radius: 2.4285714285714284rem;
-  background-color: #cccccc;
-  margin: 10px 0;
-  list-style: url(./../image/validation_icon\ 2.png) inside;
+  border-radius: 34px;
+  list-style: none;
+  width: 250px;
+  height: 37px;
+  padding: 8px;
+  background: #cccccc url(../image/validation_icon2.png) no-repeat 13% 45%/ 16px 17px;
+}
+
+.vdt__item:last-child {
+  margin-top: 12px;
 }
