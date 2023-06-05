@@ -1,0 +1,26 @@
+*{
+  font-size: 14px;
+}
+
+ul{
+  margin: 0;
+}
+
+
+a {
+  text-decoration: none;
+  color: #121212;
+  display: block;
+}
+
+.vdt-container {
+  width: 250px;
+  text-align: center;
+}
+
+.vdt__item {
+  border-radius: 2.4285714285714284rem;
+  background-color: #cccccc;
+  margin: 10px 0;
+  list-style: url(./../image/validation_icon\ 2.png) inside;
+}
