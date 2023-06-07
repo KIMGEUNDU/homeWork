@@ -61,6 +61,7 @@ img {
   display: inline-block;
   background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
   padding: 12px;
+  box-shadow: 5px 5px 0px #AAAAAA;
 }
 
 /* 로그인 */
