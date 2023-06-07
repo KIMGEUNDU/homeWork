@@ -5,12 +5,6 @@
   font-style: normal;
 }
 
-/* 메인 서브 컬러지정 */
-:root {
-  --primary-color: #E8852E;
-  --secondary-color: #FFFF00;
-}
-
 /* 전체 설정 */
 * {
   margin: 0;
@@ -87,10 +81,12 @@ img {
   border-radius: 0;
 }
 
+/* 아이디 */
 .inputId {
   margin-bottom: 4px;
 }
 
+/* 로그인 버튼 */
 .loginBtn {
   cursor: pointer;
   position: absolute;
@@ -105,17 +101,18 @@ img {
   border: 0;
 }
 
+/* 회원가입/아이디비밀번호찾기 */
 .memberService {
   padding-top: 4px;
   display: flow-root;
 }
 
-.memberItem {}
-
+/* 회원가입 */
 .memberItem:first-child {
   float: left;
 }
 
+/* 아이디비밀번호찾기 */
 .memberItem:last-child {
   float: right;
 }
