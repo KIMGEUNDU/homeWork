@@ -59,13 +59,11 @@ img {
 /* W3C 이미지 */
 .st__left {
   float: left;
-  display: inline;
   margin-right: 16px;
 }
 
 .st__right {
   float: right;
-  display: inline;
   margin-left: 16px;
 }
 
