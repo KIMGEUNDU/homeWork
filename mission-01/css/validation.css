@@ -18,6 +18,8 @@ a {
   text-decoration: none;
   color: #121212;
   display: block;
+  height: 37px;
+  padding: 8px;
 }
 
 /* ul */
@@ -25,15 +27,12 @@ a {
   width: 250px;
   height: 86px;
   text-align: center;
+  list-style: none;
 }
 
 /* li */
 .vdt__item {
   border-radius: 34px;
-  list-style: none;
-  width: 250px;
-  height: 37px;
-  padding: 8px;
   background: url(../image/validation_icon2.png) no-repeat 13%/ 16px 17px #cccccc;
 }
 
