@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 전체 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Regular';
+  font-size: 14px;
+  line-height: 150%;
+  color: #181818;
+  box-sizing: border-box;
+}
+
+/* 전체 컨테이너 박스 */
+.siteContainer {
+  width: 190px;
+  height: 196px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  border: 1px solid #A3A3A3;
+  border-radius: 0 0 5px 5px;
+  padding: 8px 12px 12px;
+  /* 가운데정렬 */
+  margin: 100px auto;
+}
+
+/* 제목 */
+.siteTitle {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.siteTitle span {
+  color: #ED552F;
+}
+
+/* ul */
+.linkWrapper {
+  width: 166px;
+  height: 29px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  list-style: none;
+  background: #fff;
+}
+
+li {
+  padding-left: 24px;
+}
+
+/* a */
+.siteLink {
+  margin: 4px;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.linkWrapper:hover {
+  transition-property: height;
+  transition-duration: 1s;
+  height: 145px;
+}
