@@ -21,8 +21,8 @@ a {
 
 /* 새소식 전체 영역 */
 .newsContainer {
-  position: relative;
   display: inline-block;
+  position: relative;
 }
 
 /* 새소식 타이틀 */
