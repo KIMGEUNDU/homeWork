@@ -52,21 +52,21 @@ a {
   border: 1px solid #A3A3A3;
   border-radius: 5px;
   overflow: hidden;
-  transition-property: height, padding-top;
+  transition-property: height, padding;
   transition-duration: 0.3s;
   transition-delay: 0s, 0.2s;
   height: 29px;
-  padding-top: 0;
+  padding: 0;
 }
 
 /* hover 이벤트 */
 .siteLinkWrapper:hover {
-  transition-property: height, padding-top;
+  transition-property: height, padding;
   transition-duration: 0.6s;
   transition-delay: 0s, 0.4s;
   transition-timing-function: linear;
   height: 175px;
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 /* 링크 */
