@@ -6,8 +6,9 @@
     3. div.boardTitle > h3.boardTitle + p.boardTime + p.boardDetail
     4. figure.boardImg > img + figcaption
     5. a.newsLink
-
-제가 생각한 논리적인 순서는 이렇습니다.
+<br>
+🔻 제가 생각한 논리적인 순서는 이렇습니다.
+<br>
 <img src="./images/논리적인순서.png">
 
 해당 section의 제목(h2) '새소식' 을 먼저 마크업하고 게시판 글에 대한 제목과, 작성일, 내용을 보여주고 미리보기 이미지를 마크업하였습니다.
