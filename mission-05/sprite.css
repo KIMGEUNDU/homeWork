@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --primary-color: #181818;
+  --accent-color: #ED552F;
+  --subaccent-color: #447231;
+}
+
+/* 전체 영역 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Regular';
+  color: var(--submary-color);
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 인기 사이트 전체 */
+.favoriteSite {
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);
+  padding: 12px;
+  width: 190px;
+  margin: 100px auto;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  position: relative;
+}
+
+/* 제목 */
+.fsTitle {
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.accentColor {
+  color: var(--accent-color);
+}
+
+/* 리스트 전체 */
+.fsListWrapper {
+  background: pink;
+  padding-left: 20px;
+  font-size: 11px;
+}
+
+.fsList {
+  text-decoration: none;
+  background: url(./images/rank.png) no-repeat;
+  width: 100%;
+  list-style-type: none;
+}
+
+.list__W3C {
+  background-position: 133px 7px;
+  list-style-image: url(./images/1.png);
+}
+
+.list__Web {
+  background-position: 133px -36px;
+  list-style-image: url(./images/2.png);
+}
+
+.list__CSS {
+  background-position: 133px -15px;
+  list-style-image: url(./images/3.png);
+}
+
+.list__MDN {
+  background-position: 133px 7px;
+  list-style-image: url(./images/4.png);
+}
+
+/* 더보기 */
+.fs__more {
+  height: 16px;
+  line-height: 16px;
+  font-size: 14px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+
+.plus {
+  color: var(--subaccent-color);
+  height: 100%;
+  font-weight: 900;
+}
