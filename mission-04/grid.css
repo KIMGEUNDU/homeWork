@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* 전체 설정 */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pretendard-Regular';
+  font-size: 14px;
+  line-height: 150%;
+  color: #181818;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 새소식 전체 영역 */
+.newsContainer {
+  display: inline-block;
+  position: relative;
+}
+
+/* 새소식 타이틀 */
+.newsTitle {
+  grid-area: maintitle;
+  font-weight: 700;
+  color: #ED552F;
+}
+
+/* 구분선 */
+.newsTitle::after {
+  grid-area: line;
+  content: "";
+  display: block;
+  width: 266px;
+  height: 1px;
+  background: linear-gradient(90deg, #A9A9A9 -1.32%, #FFFFFF 100%);
+  margin: 6px 0;
+}
+
+/* 게시판 전체 영역 */
+.newsBoard {
+  width: 380px;
+  height: auto;
+  padding-top: 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas:
+    "img subtitle"
+    "img date"
+    "img detail";
+}
+
+/* 게시판 글 제목 */
+.boardTitle {
+  grid-area: subtitle;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* 게시판 글 작성 일자 */
+.boardTime {
+  grid-area: date;
+  margin-bottom: 12px;
+}
+
+/* 게시판 글 내용 */
+.boardDetail {
+  grid-area: detail;
+  width: 251px;
+}
+
+/* 게시판 글 미리보기 */
+.boardImg {
+  grid-area: img;
+  width: 112px;
+}
+
+.boardImg img {
+  width: 112px;
+  height: 66px;
+}
+
+.boardImg figcaption {
+  text-align: center;
+}
+
+/* 더보기 */
+.newsLink {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.newsLink span {
+  color: #447231;
+  font-weight: 900;
+  margin-right: 4px;
+  font-size: 20px;
+}
