@@ -49,6 +49,7 @@ a {
 
 /* 리스트 전체 */
 .fsListWrapper {
+  margin-top: 10px;
   font-size: 11px;
   display: flex;
   flex-flow: column nowrap;
